@@ -1,0 +1,11 @@
+C:\Users\hamzi\source\repos\WeatherOrNot\WeatherOrNot\obj\Debug\netcoreapp1.1\WeatherOrNot.csprojAssemblyReference.cache
+C:\Users\hamzi\source\repos\WeatherOrNot\WeatherOrNot\obj\Debug\netcoreapp1.1\WeatherOrNot.csproj.CoreCompileInputs.cache
+C:\Users\hamzi\source\repos\WeatherOrNot\WeatherOrNot\obj\Debug\netcoreapp1.1\WeatherOrNot.AssemblyInfoInputs.cache
+C:\Users\hamzi\source\repos\WeatherOrNot\WeatherOrNot\obj\Debug\netcoreapp1.1\WeatherOrNot.AssemblyInfo.cs
+C:\Users\hamzi\source\repos\WeatherOrNot\WeatherOrNot\bin\Debug\netcoreapp1.1\WeatherOrNot.deps.json
+C:\Users\hamzi\source\repos\WeatherOrNot\WeatherOrNot\bin\Debug\netcoreapp1.1\WeatherOrNot.runtimeconfig.json
+C:\Users\hamzi\source\repos\WeatherOrNot\WeatherOrNot\bin\Debug\netcoreapp1.1\WeatherOrNot.runtimeconfig.dev.json
+C:\Users\hamzi\source\repos\WeatherOrNot\WeatherOrNot\bin\Debug\netcoreapp1.1\WeatherOrNot.dll
+C:\Users\hamzi\source\repos\WeatherOrNot\WeatherOrNot\bin\Debug\netcoreapp1.1\WeatherOrNot.pdb
+C:\Users\hamzi\source\repos\WeatherOrNot\WeatherOrNot\obj\Debug\netcoreapp1.1\WeatherOrNot.dll
+C:\Users\hamzi\source\repos\WeatherOrNot\WeatherOrNot\obj\Debug\netcoreapp1.1\WeatherOrNot.pdb
