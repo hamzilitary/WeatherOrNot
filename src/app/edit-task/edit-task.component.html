@@ -1,0 +1,11 @@
+<div *ngIf="childEditToDo">
+  <h3>{{childEditToDo.task}}</h3>
+  <h3>Edit The Activity At Hand</h3>
+  <input [(ngModel)]="childEditToDo.task">
+  <input [(ngModel)]="childEditToDo.description">
+  <input [(ngModel)]="childEditToDo.conditions">
+  <input [(ngModel)]="childEditToDo.temperature">
+  <input [(ngModel)]="childEditToDo.suggest">
+  <button (click)="finishEditing()">Done</button>
+
+</div>

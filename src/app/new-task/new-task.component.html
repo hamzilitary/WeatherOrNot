@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="card-body">
+
+
+  <form class="newTask" >
+  <label for="task-form"></label>
+  <input #newTask placeholder="activity">
+  <input #newDescription placeholder="description">
+  <input #newConditions placeholder="conditions">
+  <input #newTemperature type="number" placeholder="temperature">
+  <label >Suggested?
+  <input #newSuggest type="checkbox" (change)="suggest = !suggest" [checked]="suggest" placeholder="suggest override">
+</label>
+  <button (click)="addTask(newTask.value, newDescription.value, newConditions.value, newTemperature.value, suggest); newTask.value=''; newDescription.value=''; newConditions.value=''; newTemperature.value=''; suggest = false;" routerLink=''>Add Task</button>
+
+
+</form>
+</div>
+</div>
