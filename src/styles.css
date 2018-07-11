@@ -10,3 +10,7 @@ h1 {
   text-align: center;
   font-size: 60px;
 }
+
+.card {
+  background-color: rgba(245, 245, 245, 0.4);
+}
