@@ -14,3 +14,13 @@ h1 {
 .card {
   background-color: rgba(245, 245, 245, 0.4);
 }
+
+li {
+  color: white;
+  font-size: 20px;
+}
+
+ul {
+  font-size: 20px;
+  font-weight: bold;
+}

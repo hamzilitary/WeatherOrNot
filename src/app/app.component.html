@@ -28,7 +28,7 @@
   </div>
 </nav>
 <h1>Weather or Not</h1>
-<ul>
+<ul>THE TEMPERATURE IN SAN ANTONIO IS
   <li *ngFor="let value of apiValues">{{value}}</li>
 </ul>
 
@@ -46,7 +46,7 @@
         Suggested?
         <input #newSuggest type="checkbox" (change)="suggest = !suggest" [checked]="suggest" placeholder="suggest override">
       </label>
-      <button (click)="addTask(newTask.value, newDescription.value, newConditions.value, newTemperature.value, suggest); newTask.value=''; newDescription.value=''; newConditions.value=''; newTemperature.value=''; suggest = false;" routerLink=''>Add Task</button>
+      <button (click)="addTask(newTask.value, newDescription.value, suggest); newTask.value=''; newDescription.value=''; suggest = false;" routerLink=''>Add Task</button>
 
 
     </form>

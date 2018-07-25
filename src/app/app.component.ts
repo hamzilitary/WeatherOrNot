@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit } from '@angular/core';
+import { ToDo } from './models/to-do.model';
+import { TaskService } from './services/task.service'
 import { Http } from '@angular/http';     
 @Component({
     selector: 'app-root',

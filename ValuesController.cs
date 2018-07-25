@@ -32,11 +32,11 @@ namespace WeatherOrNot
     {
       var api = new Api();
       var stations = await api.GetStationsAsync();
-      var station = stations.FirstOrDefault(s => s.IATA.Equals("pdx", StringComparison.CurrentCultureIgnoreCase));
-      var pdxStations = stations.Where(s => s.IATA.Equals("pdx", StringComparison.CurrentCultureIgnoreCase));
+      var station = stations.FirstOrDefault(s => s.IATA.Equals("sat", StringComparison.CurrentCultureIgnoreCase));
+      var pdxStations = stations.Where(s => s.IATA.Equals("sat", StringComparison.CurrentCultureIgnoreCase));
 
       //var scary = await api.GetWeatherAlertByZipCodeAsync("97209");
-      var conditions = await _cache.GetOrCreateAsync(new { loc = "pdx", date = DateTime.Today }, async (cache) =>
+      var conditions = await _cache.GetOrCreateAsync(new { loc = "sat", date = DateTime.Today }, async (cache) =>
       {
         cache.SetAbsoluteExpiration(DateTime.Now.AddHours(1));
          return await api.GetCurrentObservationsByStationAsync(station);
